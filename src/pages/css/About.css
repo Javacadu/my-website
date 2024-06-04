@@ -1,0 +1,100 @@
+#about-main {
+    height: calc(100vh-176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main-content {
+    flex-basis: 50%;
+    position: relative;
+    z-index: 0;
+}
+
+.about-main-title {
+    letter-spacing: 2px;
+    font-size: 68px;
+    text-align: center;
+}
+
+.about-main-linebreak {
+    width: 1000px;
+    margin: 20px 0;
+}
+
+.about-main-socials {
+    margin-bottom: 2vh;
+    font-size: 42px;
+}
+
+.about-main-socials > *  {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about-main-socials > *:hover  {
+    opacity: 0.3;
+}
+
+.about-main-socials svg {
+    color: black;
+}
+
+/*
+Left Side 
+*/
+.about-main-left {
+    margin-left: 40px;
+    margin-bottom: 2vh;
+    letter-spacing: 1px;
+    width: 360px;
+    height: auto;
+}
+
+
+
+/* 
+right side
+*/
+
+  .about-main-right {
+    margin-left: 40px;
+    margin-bottom: auto;
+    z-index: 0;
+    letter-spacing: 1px;
+    width: 360px;
+    height: auto;
+  }
+
+/*
+Extra Design
+*/
+
+
+span {
+    font-size: 28px;
+    font-family: 'Serif';
+}
+
+/*
+PFP
+*/
+
+.pfp-crop {
+    width: 250px;
+    height: 256px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 37%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    
+}
+

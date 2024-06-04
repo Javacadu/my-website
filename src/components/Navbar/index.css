@@ -1,0 +1,35 @@
+/*//////////////////////
+Navigation bar styling 
+//////////////////////*/
+  
+  #navbar-container {
+    padding-top: 32px;
+    z-index: -5;
+  }
+  
+  #navbar-contents {
+    font-size: 24px;
+    font-family: "Bebas Neue", cursive;
+    padding: 0 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #navbar-contents * {
+    text-decoration: none;
+  }
+  #navbar-contents > * {
+    width: 200px;
+    letter-spacing: 1px;
+    display: inline;
+    margin: 0 auto;
+  }
+  
+  #navbar-contents a {
+    transition: 0.3s;
+  }
+  #navbar-contents a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }

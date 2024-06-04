@@ -1,0 +1,30 @@
+#home-main {
+    height: calc(100vh - 230px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main-content {
+    flex-basis: 50%;
+    padding-top: 40px;
+    position: center;
+    z-index: 0;
+}
+.home-main-content:first-of-type { padding: 20px;}
+
+    /* Name Title */
+    .home-main-title {
+        font-size: 88px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .home-main-subtitle {
+        font-size: 35px;
+        line-height: 32px;
+        letter-spacing: 1.2px;
+        font-family: 'roboto';
+        text-align: center;
+    }

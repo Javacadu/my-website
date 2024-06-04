@@ -1,0 +1,128 @@
+#contact-main {
+    height: calc(100vh-176);
+    align-items: center;
+}
+
+.contact-me {
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+}
+
+.contact-me-sub {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+/*
+Email Styling
+*/
+.email {
+    margin-left: 10px;
+}
+
+.email-school {
+    margin-left: 10px;
+}
+
+.email:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(100, 124, 165);
+}
+
+.email-school:hover {
+    cursor: pointer;
+    color: rgb(63, 63, 220);
+    background-color: rgb(255, 220, 82);
+}
+
+.email-copied {
+    font-family: monospace;
+    margin-left: 10px;
+    border-radius: 10%;
+    background-color: rgb(81, 206, 81);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+.email-copied.fade-out {
+    opacity: 0;
+}
+
+/*
+Socials Styling
+*/
+
+.contact-main-border {
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    height: 15vh;
+}
+
+.contact-socials-icon {
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 90px;
+}
+
+/*insta*/
+
+.insta-icon:hover {
+    color: white;
+}
+
+.insta:hover {
+    
+    color: white; /* Change text color to white on hover */
+    background: linear-gradient(320deg, rgba(249, 237, 50, 0.8), rgba(238, 42, 123, 0.8), rgba(0, 42, 255, 0.8));
+  }
+  
+
+/*linkedin*/
+.linkedin-icon:hover {
+    color: white;
+}
+
+.linkedin:hover {
+    color: white;
+    background: #0e76a8;
+}
+
+/*github*/
+.github-icon:hover {
+    color: white;
+}
+
+.github:hover {
+    color: white;
+    background: #333;
+}
+
+/*spotify*/
+.spotify-icon:hover {
+    color: white;
+}
+
+.spotify:hover {
+    color: white;
+    background: #31be7a;
+}
+
+/*Disc*/
+.discord-icon:hover {
+    color: white;
+}
+
+.discord:hover {
+    color: white;
+    background: #7289da;
+}

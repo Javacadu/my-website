@@ -1,0 +1,37 @@
+.game-area {
+    position: relative;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .snake-segment {
+    position: absolute;
+    background-color: #28a745;
+    transition: none;
+  }
+  
+  .food {
+    position: absolute;
+    background-color: #dc3545;
+    transition: none;
+  }
+  
+  .snake-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .replay-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
