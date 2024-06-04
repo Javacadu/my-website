@@ -37,11 +37,3 @@ function PathNotFound() {
   return <h3>Error 404 - Page Not Found!</h3>;
 }
 
-
-
-/*
-React 18), Switch has been replaced by Routes, 
-and Route component's component prop has been 
-replaced by element prop for specifying the component to render. 
-Also, exact prop has been removed.
-*/
