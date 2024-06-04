@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Javacadu.github.io/my-website/static/css/main.24dd2101.css",
+    "main.js": "/Javacadu.github.io/my-website/static/js/main.4ed9377f.js",
+    "static/media/about-pfp.jpg": "/Javacadu.github.io/my-website/static/media/about-pfp.d87d92a3449d8c4a2c96.jpg",
+    "index.html": "/Javacadu.github.io/my-website/index.html",
+    "main.24dd2101.css.map": "/Javacadu.github.io/my-website/static/css/main.24dd2101.css.map",
+    "main.4ed9377f.js.map": "/Javacadu.github.io/my-website/static/js/main.4ed9377f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24dd2101.css",
+    "static/js/main.4ed9377f.js"
+  ]
+}
